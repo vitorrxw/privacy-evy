@@ -75,37 +75,33 @@
 		height: 100%;
 	}
 
-	.live-indicator {
-		position: relative;
-		display: inline-block;
-		padding: 5px;
-		/* Space for border effect */
-		border-radius: 50%;
-		border: 4px solid red;
-		/* Borda vermelha */
-		box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-		/* Efeito de brilho */
-	}
+	/* .live-indicator {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  border: 4px solid red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+.live-indicator .avatar {
+  display: block;
+} */
 
-	.live-indicator .avatar {
-		display: block;
-	}
 
-	.live-badge {
-		position: absolute;
-		bottom: -10px;
-		/* Posiciona abaixo da imagem */
-		right: 0;
-		background-color: red;
-		color: white;
-		font-size: 10px;
-		font-weight: bold;
-		text-transform: uppercase;
-		padding: 4px 8px;
-		border-radius: 20px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-		/*Sombra para destaque */
-	}
+	/* .live-badge {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+} */
+
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -258,10 +254,9 @@
 					<div class="user-img mt-n5 mr-1">
 						<div style="left:-4px;top:-4px;">
 							<div>
-								<figure class="d-inline-block bg-img-profile live-indicator">
+								<figure class="d-inline-block bg-img-profile">
 									<img class="avatar rounded-circle" src="perfil-v2.png" id="FotoPerfil" style="max-width:96px;min-height:96px;min-width:96px;">
 									<div class="border-profile"></div>
-									<span class="live-badge">AO VIVO</span>
 								</figure>
 							</div>
 						</div>
